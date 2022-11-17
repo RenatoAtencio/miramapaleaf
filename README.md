@@ -44,3 +44,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 El mapa funciona con la libreria [Leaflet](https://leafletjs.com/), tambien se hace uso de [React Leaflet](https://react-leaflet.js.org/) que permite usar capas de leaflet como componentes react, para instalar los paquetes necesarios para correr la aplicacion usar el siguiente comando.
 
 ### `npm i react-leaflet leaflet`
+
+## Deployment en vercel
+
+ [Link a la pagina](https://miramapaleaf.vercel.app/)
