@@ -1,0 +1,3 @@
+-Completar el data.json con los distintos edificos y respectivos parametros
+-implementar la barra de busqueda y hacer que los marcadores sean tambien lugares a buscar
+-actualizar la bitacora
