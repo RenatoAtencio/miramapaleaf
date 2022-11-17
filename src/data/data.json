@@ -1,7 +1,6 @@
-{
-    "edif":[{
+[{
         "ident":"E6000",
-        "marcador":[-39.832381,-73.243886],
+        "marcador":{"lat":-39.832381,"lng":-73.243886},
         "pisos":[
             {
                 "6300":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
@@ -15,7 +14,7 @@
         "servicio":{"tipo":"est","horario":["8am","8pm"]}
     },{
         "ident":"E7000",
-        "marcador":[-39.833305,-73.252080],
+        "marcador":{"lat":-39.833305,"lng":-73.252080},
         "pisos":[
             {
                 "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
@@ -28,4 +27,4 @@
         "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
         "servicio":{"tipo":"est","horario":["8am","8pm"]}
     }
-]}
+]
