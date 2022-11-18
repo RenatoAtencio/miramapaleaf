@@ -26,5 +26,47 @@
             }],
         "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
         "servicio":{"tipo":"est","horario":["8am","8pm"]}
+    },{
+        "ident":"E8000",
+        "marcador":{"lat":-39.834033,"lng":-73.245151},
+        "pisos":[
+            {
+                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            },
+            {
+                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            }],
+        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+        "servicio":{"tipo":"est","horario":["8am","8pm"]}
+    },{
+        "ident":"E9000",
+        "marcador":{"lat":-39.833868,"lng":-73.246055},
+        "pisos":[
+            {
+                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            },
+            {
+                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            }],
+        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+        "servicio":{"tipo":"est","horario":["8am","8pm"]}
+    },{
+        "ident":"E10000",
+        "marcador":{"lat":-39.833399,"lng":-73.245197},
+        "pisos":[
+            {
+                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            },
+            {
+                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            }],
+        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+        "servicio":{"tipo":"est","horario":["8am","8pm"]}
     }
 ]

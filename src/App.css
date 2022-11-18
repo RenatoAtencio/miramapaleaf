@@ -1,4 +1,27 @@
+.Base{
+  display: grid;
+  grid-template-rows: 10vh 90vh;
+}
+
+.Barra{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3,33.33%);
+}
+
+.Horario{
+  border-style: solid;
+}
+
+.Titulo{  
+  border-style: solid;
+}
+
+.Buscador{
+  border-style: solid;
+}
+
 .leaflet-container {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }

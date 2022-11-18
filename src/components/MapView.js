@@ -1,8 +1,9 @@
 import React from "react"
-import {MapContainer,Marker,TileLayer} from "react-leaflet"
+import {MapContainer,Marker,TileLayer,Popup} from "react-leaflet"
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
 import edif from "../data/data.json"
+
 
 const markerIcon = new L.icon({
   iconUrl:require("../assets/Marker.png"),
@@ -23,7 +24,6 @@ const MapView = () => {
         icon={markerIcon}
         key={idx}
       >
-
       </Marker>
     )}
 
