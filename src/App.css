@@ -1,27 +1,41 @@
-.Base{
-  display: grid;
-  grid-template-rows: 10vh 90vh;
+*{
+  box-sizing: border-box;
 }
-
-.Barra{
+.Base{
+  display: flex;
+  justify-content: center;
   text-align: center;
-  display: grid;
-  grid-template-columns: repeat(3,33.33%);
 }
 
 .Horario{
   border-style: solid;
+  width: 25vw;
+  height: 100vh;
 }
 
-.Titulo{  
+.Titulo{
   border-style: solid;
+  width: 25vw;
+  height: 100vh;
 }
 
 .Buscador{
   border-style: solid;
+  width: 25vw;
+  height: 100vh;
 }
 
-.leaflet-container {
-  width: 100%;
-  height: 100%;
+.Mapa{
+  width: 25vw;
+  height: 100vh;
+}
+
+.MenuDeBusqueda{
+  display: flex;
+  flex-direction: column;
+}
+
+.BarraBoton{
+  display: flex;
+  align-items: center;
 }

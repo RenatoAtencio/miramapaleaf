@@ -1,9 +1,7 @@
-import React from "react"
-import {MapContainer,Marker,TileLayer,Popup} from "react-leaflet"
+import React, { useEffect } from "react"
+import {MapContainer,Marker,TileLayer,Popup,useMap} from "react-leaflet"
 import 'leaflet/dist/leaflet.css'
 import L from 'leaflet'
-import edif from "../data/data.json"
-
 
 const markerIcon = new L.icon({
   iconUrl:require("../assets/Marker.png"),
@@ -11,24 +9,41 @@ const markerIcon = new L.icon({
   iconAnchor:null,
 })
 
-const MapView = () => {
-  return <MapContainer center={[-39.831742, -73.246750]} zoom={16}> 
-    <TileLayer
-      url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-      attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-    />
-    
-    {edif.map((edif,idx)=>
-      <Marker 
-        position={[edif.marcador.lat,edif.marcador.lng]} 
-        icon={markerIcon}
-        key={idx}
-      >
-      </Marker>
-    )}
-
-
-  </MapContainer>
+function ResetCenterView(props) {
+  const { selectPosition } = props;
+  const map = useMap();
+  useEffect(() => {
+    if (selectPosition) {
+      map.setView(
+        L.latLng(selectPosition?.marcador.lat, selectPosition?.marcador.lng),
+        map.getZoom(),
+        {
+          animate: true
+        }
+      )
+    }
+  }, [selectPosition]);
+  return null;
 }
 
-export default MapView
+export default function MapView(props){
+  const {selectPosition}=props;
+  const locationSelection = [selectPosition?.marcador.lat, selectPosition?.marcador.lng];
+
+  return(
+    <MapContainer className="Mapa" center={[-39.831742, -73.246750]} zoom={16}>
+      <TileLayer
+            url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
+            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          />
+      {selectPosition && (
+        <Marker position={locationSelection} icon={markerIcon}>
+          <Popup>
+            Edificio
+          </Popup>
+        </Marker>
+      )}
+      <ResetCenterView selectPosition={selectPosition} />
+    </MapContainer>
+  )
+}
