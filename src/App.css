@@ -9,24 +9,24 @@
 
 .Horario{
   border-style: solid;
-  width: 25vw;
+  width: 5vw;
   height: 100vh;
 }
 
 .Titulo{
   border-style: solid;
-  width: 25vw;
+  width: 5vw;
   height: 100vh;
 }
 
 .Buscador{
   border-style: solid;
-  width: 25vw;
+  width: 20vw;
   height: 100vh;
 }
 
 .Mapa{
-  width: 25vw;
+  width: 70vw;
   height: 100vh;
 }
 
