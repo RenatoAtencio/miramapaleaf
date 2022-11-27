@@ -9,6 +9,12 @@ const markerIcon = new L.icon({
   iconAnchor:null,
 })
 
+function ShowInformation(props){
+  const { selectPosition } = props;
+  
+}
+
+
 function ResetCenterView(props) {
   const { selectPosition } = props;
   const map = useMap();
@@ -22,7 +28,7 @@ function ResetCenterView(props) {
         }
       )
     }
-  }, [selectPosition]);
+  }, [selectPosition]);  
   return null;
 }
 

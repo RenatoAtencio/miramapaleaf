@@ -37,7 +37,7 @@ export default function SearchBar(props) {
             return (
               <div key={item?.ident}>
                 <ListItem
-                  button
+                  button 
                   onClick={() => {
                     setSelectPosition(item);
                   }}

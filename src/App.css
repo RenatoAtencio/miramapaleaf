@@ -6,22 +6,42 @@
   justify-content: center;
   text-align: center;
 }
-
-.Horario{
+.Menu{
+  display: flex;
+  flex-direction: column;
   border-style: solid;
-  width: 5vw;
+  width: 15vw;
   height: 100vh;
+}
+
+.TituloHorarioB{
+  height: 10%;
+  display: flex;
+}
+
+.BottonHorario{
+  border-style: solid;
+  width: 30%;
 }
 
 .Titulo{
   border-style: solid;
-  width: 5vw;
-  height: 100vh;
+  width: 70%;
+}
+
+.Horario{
+  border-style: solid;
+  height: 45%;
+}
+
+.Informacion{
+  border-style: solid;
+  height: 45%;
 }
 
 .Buscador{
   border-style: solid;
-  width: 20vw;
+  width: 15vw;
   height: 100vh;
 }
 

@@ -1,3 +1,6 @@
--Completar el data.json con los distintos edificos y respectivos parametros
--implementar la barra de busqueda y hacer que los marcadores sean tambien lugares a buscar
--actualizar la bitacora
+-hacer que la barra de busqueda funcione
+-actualizar la bitacora para los sprints restantes 
+-ver como poner elementos por encima del mapa 
+-ver como crear la targeta de informacion y que se
+  actualize al apretar un edificio nuevo
+-
