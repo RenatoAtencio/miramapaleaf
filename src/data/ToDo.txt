@@ -3,4 +3,4 @@
 -ver como poner elementos por encima del mapa 
 -ver como crear la targeta de informacion y que se
   actualize al apretar un edificio nuevo
--
+-barra de busqueda se va para abajo
