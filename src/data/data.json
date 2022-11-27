@@ -1,4 +1,74 @@
 [{
+    "ident":"E1000 Decanato",
+    "marcador":{"lat":-39.832894,"lng":-73.250856},
+    "pisos":[
+        {
+            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+        },
+        {
+            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+        }],
+    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+    "servicio":{"tipo":"est","horario":["8am","8pm"]}
+},{
+    "ident":"E2000",
+    "marcador":{"lat":-39.833598,"lng":-73.251061},
+    "pisos":[
+        {
+            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+        },
+        {
+            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+        }],
+    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+    "servicio":{"tipo":"est","horario":["8am","8pm"]}
+},{
+    "ident":"E3000",
+    "marcador":{"lat":-39.832783,"lng":-73.250204},
+    "pisos":[
+        {
+            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+        },
+        {
+            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+        }],
+    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+    "servicio":{"tipo":"est","horario":["8am","8pm"]}
+},{
+    "ident":"E4000",
+    "marcador":{"lat":-39.832521,"lng":-73.253114},
+    "pisos":[
+        {
+            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+        },
+        {
+            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+        }],
+    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+    "servicio":{"tipo":"est","horario":["8am","8pm"]}
+},{
+    "ident":"E5000",
+    "marcador":{"lat":-39.831856,"lng":-73.250807},
+    "pisos":[
+        {
+            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+        },
+        {
+            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+        }],
+    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+    "servicio":{"tipo":"est","horario":["8am","8pm"]}
+},{
         "ident":"E6000",
         "marcador":{"lat":-39.832381,"lng":-73.243886},
         "pisos":[
@@ -57,6 +127,62 @@
     },{
         "ident":"E10000",
         "marcador":{"lat":-39.833399,"lng":-73.245197},
+        "pisos":[
+            {
+                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            },
+            {
+                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            }],
+        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+        "servicio":{"tipo":"est","horario":["8am","8pm"]}
+    },{
+        "ident":"E11000",
+        "marcador":{"lat":-39.832138,"lng":-73.250461},
+        "pisos":[
+            {
+                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            },
+            {
+                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            }],
+        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+        "servicio":{"tipo":"est","horario":["8am","8pm"]}
+    },{
+        "ident":"Biblioteca",
+        "marcador":{"lat":-39.831883,"lng":-73.244685},
+        "pisos":[
+            {
+                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            },
+            {
+                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            }],
+        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+        "servicio":{"tipo":"est","horario":["8am","8pm"]}
+    },{
+        "ident":"E13000 Civil Industrial", 
+        "marcador":{"lat":-39.831539,"lng":-73.244200},
+        "pisos":[
+            {
+                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            },
+            {
+                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
+                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
+            }],
+        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
+        "servicio":{"tipo":"est","horario":["8am","8pm"]}
+    },{
+        "ident":"E14000 Inoving", 
+        "marcador":{"lat":-39.832356,"lng":-73.245375},
         "pisos":[
             {
                 "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
