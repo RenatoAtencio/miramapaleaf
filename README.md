@@ -39,11 +39,15 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Libreria a instalar
+## Librerias a instalar
 
 El mapa funciona con la libreria [Leaflet](https://leafletjs.com/), tambien se hace uso de [React Leaflet](https://react-leaflet.js.org/) que permite usar capas de leaflet como componentes react, para instalar los paquetes necesarios para correr la aplicacion usar el siguiente comando.
 
 ### `npm i react-leaflet leaflet`
+
+Tambien se hace uso de la libreria MUI que permite usar UI estilizada
+
+### `npm install @mui/material @emotion/react @emotion/styled`
 
 ## Deployment en vercel
 
