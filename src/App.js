@@ -23,7 +23,6 @@ function App() {
         </div>
         <div className='Informacion'>
           <Informacion selectPosition={selectPosition}/>
-          <h4>Informacion</h4>
         </div>
       </div>
       <div className='Buscador'>

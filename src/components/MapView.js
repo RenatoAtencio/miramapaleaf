@@ -6,14 +6,8 @@ import L from 'leaflet'
 const markerIcon = new L.icon({
   iconUrl:require("../assets/Marker.png"),
   iconSize:[35,35],
-  iconAnchor:null,
+  iconAnchor:[20, 35],
 })
-
-function ShowInformation(props){
-  const { selectPosition } = props;
-  
-}
-
 
 function ResetCenterView(props) {
   const { selectPosition } = props;
