@@ -9,24 +9,16 @@ function App() {
 
   return (
     <div className='Base'>
-      <div className='Menu'>
-        <div className='TituloHorarioB'>
-          <div className='BottonHorario'>
-            <h4>Botton horario</h4>
-          </div>
-          <div className='Titulo'>
-            <h4>Mira Mapa</h4>
-          </div>
-        </div>
+      <div className='Buscador'>
+          <SearchBar selectPosition={selectPosition} setSelectPosition={setSelectPosition}/>
+      </div>
+      <div className='Informacion-Horario'>
         <div className='Horario'>
           <h4>Horario</h4>
-        </div>
+        </div>  
         <div className='Informacion'>
           <Informacion selectPosition={selectPosition}/>
-        </div>
-      </div>
-      <div className='Buscador'>
-        <SearchBar selectPosition={selectPosition} setSelectPosition={setSelectPosition}/>
+        </div>  
       </div>
       <div className='Mapa'>
         <MapView selectPosition={selectPosition}/>
