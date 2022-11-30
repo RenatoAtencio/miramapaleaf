@@ -3,9 +3,14 @@ import '../assets/Targeta.css'
 
 export default function Informacion(props){
   const { selectPosition } = props;
-  var nom = selectPosition?.ident;
-  console.log(nom);
-  return (
+  if (selectPosition?.ident===undefined){
+    return (
+      <div className='TargetaVacia'>
+        <p>Selecciona o busca una sala o edificio</p>
+      </div>  
+    )
+  }else{
+    return (
     <div className='Targeta'>
       <div className='TargetaTitulo'>
         <h4>{selectPosition?.ident}</h4>
@@ -20,5 +25,5 @@ export default function Informacion(props){
         <p>{selectPosition?.informacion.foto}</p>
       </div>
     </div>
-  )
+  )}  
 } 
