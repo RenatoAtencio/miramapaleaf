@@ -1,13 +1,13 @@
-import React, { useEffect } from "react"
-import {MapContainer,Marker,TileLayer,Popup,useMap} from "react-leaflet"
-import 'leaflet/dist/leaflet.css'
-import L from 'leaflet'
+import React, { useEffect } from "react";
+import { MapContainer, Marker, TileLayer, Popup, useMap } from "react-leaflet";
+import "leaflet/dist/leaflet.css";
+import L from "leaflet";
 
 const markerIcon = new L.icon({
-  iconUrl:require("../assets/Marker.png"),
-  iconSize:[35,35],
-  iconAnchor:[20, 35],
-})
+  iconUrl: require("../assets/Marker.png"),
+  iconSize: [35, 35],
+  iconAnchor: [20, 35],
+});
 
 function ResetCenterView(props) {
   const { selectPosition } = props;
@@ -18,32 +18,33 @@ function ResetCenterView(props) {
         L.latLng(selectPosition?.marcador.lat, selectPosition?.marcador.lng),
         map.getZoom(),
         {
-          animate: true
+          animate: true,
         }
-      )
+      );
     }
-  }, [selectPosition]);  
+  }, [selectPosition]);
   return null;
 }
 
-export default function MapView(props){
-  const {selectPosition}=props;
-  const locationSelection = [selectPosition?.marcador.lat, selectPosition?.marcador.lng];
+export default function MapView(props) {
+  const { selectPosition } = props;
+  const locationSelection = [
+    selectPosition?.marcador.lat,
+    selectPosition?.marcador.lng,
+  ];
 
-  return(
-    <MapContainer className="Mapa" center={[-39.831742, -73.246750]} zoom={16}>
+  return (
+    <MapContainer className="Mapa" center={[-39.831742, -73.24675]} zoom={16}>
       <TileLayer
-            url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
-            attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          />
+        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      />
       {selectPosition && (
         <Marker position={locationSelection} icon={markerIcon}>
-          <Popup>
-            Edificio
-          </Popup>
+          <Popup>Edificio</Popup>
         </Marker>
       )}
       <ResetCenterView selectPosition={selectPosition} />
     </MapContainer>
-  )
+  );
 }

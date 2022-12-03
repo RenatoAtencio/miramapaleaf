@@ -1,19 +1,19 @@
-import '../App.css'
+import "../App.css";
 import React, { useState } from "react";
-import { OutlinedInput } from '@mui/material';
-import Button from '@mui/material/Button';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import Divider from '@mui/material/Divider';
-import listPlace from "../data/data.json"
+import { OutlinedInput } from "@mui/material";
+import Button from "@mui/material/Button";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemText from "@mui/material/ListItemText";
+import Divider from "@mui/material/Divider";
+import listPlace from "../data/data.json";
 
 export default function SearchBar(props) {
   const { selectPosition, setSelectPosition } = props;
   const [searchText, setSearchText] = useState("");
 
   return (
-    <div className="MenuDeBusqueda"> 
+    <div className="MenuDeBusqueda">
       <div className="BarraBoton">
         <div>
           <OutlinedInput
@@ -25,10 +25,7 @@ export default function SearchBar(props) {
           />
         </div>
         <div>
-          <Button 
-            variant="contained" 
-          >Buscar
-          </Button>
+          <Button variant="contained">Buscar</Button>
         </div>
       </div>
       <div>
@@ -37,12 +34,12 @@ export default function SearchBar(props) {
             return (
               <div key={item?.ident}>
                 <ListItem
-                  button 
+                  button
                   onClick={() => {
                     setSelectPosition(item);
                   }}
                 >
-                <ListItemText primary={item?.ident} />
+                  <ListItemText primary={item?.ident} />
                 </ListItem>
                 <Divider />
               </div>
@@ -51,5 +48,5 @@ export default function SearchBar(props) {
         </List>
       </div>
     </div>
-  )
+  );
 }

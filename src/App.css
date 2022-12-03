@@ -37,6 +37,7 @@
 .Mapa{
   width: 70vw;
   height: 100vh;
+  overflow: hidden;
 }
 
 .MenuDeBusqueda{
