@@ -1,8 +1,7 @@
 -hacer que la barra de busqueda funcione
--actualizar la bitacora para los sprints restantes 
 -ver como poner elementos por encima del mapa 
--barra de busqueda se va para abajo
 -hacer el diseño de la targeta de informacion
--hacer que el icono al seleccionar una sala no se deforme al mover el mapa
 -hacer que la punta del icono sea la coordenada (ahora la cordenada en el centro del png)
 -hacer que el mapa este lock en un zoom
+-hacer la pagina de informacion
+

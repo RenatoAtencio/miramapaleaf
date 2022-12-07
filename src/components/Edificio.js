@@ -8,7 +8,8 @@ export default function Edificio() {
   console.log(selectPosition);
   return (
     <div>
-      <h4>{selectPosition?.ident}</h4>
+      <h1 className="titulo">{selectPosition?.ident}</h1>
+      <p>{selectPosition?.informacion.texto}</p>
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import "../App.css";
+import "../assets/estilos/App.css";
 import React, { useState } from "react";
 import { OutlinedInput } from "@mui/material";
 import Button from "@mui/material/Button";

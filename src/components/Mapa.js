@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../App.css";
+import "../assets/estilos/App.css";
 import MapView from "./MapView";
 import SearchBar from "./SearchBar";
 import Informacion from "./Informacion";
