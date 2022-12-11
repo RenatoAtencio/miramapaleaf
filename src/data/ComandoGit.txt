@@ -1,0 +1,17 @@
+commandos windows
+cd    -> te manda a la carpeta se puede usar cd direccion 
+dir   -> te muestra lo que hay en la carpeta
+
+
+git (En los comandos)
+git clone <link>         -> te clona un repositorio
+git add <nombre archivo> -> te manda el archivo a un storage local
+git diff                 -> te indica las diferencias entre los archivos
+		 	                      locales y el storage
+git add . 		           -> manda a todos los archivos que han sufrido un
+ 			                      cambio al storage local
+git commit -m "mensaje"  ->manda los archivos en el storage local a un 
+			                     storage para ser enviados, se puede poner sin
+			                     o con mensaje
+git push             		 -> manda todos los archivos en el commit a github 
+git pull 		             -> te actualiza el repositorio 

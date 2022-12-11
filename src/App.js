@@ -6,12 +6,13 @@ import Mapa from "./components/Mapa";
 
 function App() {
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Mapa />} />
-        <Route path="/Edificio" element={<Edificio />} />
-      </Routes>
-    </>
+    /** element corre el codigo puesto, en este caso cuando se comienza
+     * a correr la app se comienza con la dirrecion "/"
+     */
+    <Routes>
+      <Route path="/" element={<Mapa />} />
+      <Route path="/Edificio" element={<Edificio />} />
+    </Routes>
   );
 }
 export default App;

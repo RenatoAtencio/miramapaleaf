@@ -1,10 +1,15 @@
 import React from "react";
-import "../assets/estilos/Targeta.css";
 import { Link } from "react-router-dom";
+import "../assets/estilos/Targeta.css";
 
 export default function Informacion(props) {
   const { selectPosition } = props;
-  console.log(selectPosition);
+
+  /**Esta parte es para la targeta de informacion que cambia segun
+   * el edificio seleccionado, hay un if para que cuando se comienze
+   * la app muestre una targeta de base, luego de eso se actualiza 
+   * cada vez que se selecciona un edificio nuevo
+   */
   if (selectPosition?.ident === undefined) {
     return (
       <div className="TargetaVacia">
