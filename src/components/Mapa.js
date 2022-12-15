@@ -3,7 +3,6 @@ import SearchBar from "./SearchBar";
 import Informacion from "./Informacion";
 import MapView from "./MapView";
 import Horario from "./Horario";
-import "../assets/estilos/App.css";
 
 export default function Mapa() {
   const [selectPosition, setSelectPosition] = useState(null);

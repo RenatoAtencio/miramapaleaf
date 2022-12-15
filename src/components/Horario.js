@@ -6,7 +6,7 @@ export default function Horario(){
         <div>
             <h4 contentEditable>Horario</h4>
             <box>
-            <table border = "1">
+            <table className="tabla">
                 <tr>
                     <th>Horas</th>
                     <th>Lunes</th>

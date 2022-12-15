@@ -1,317 +1,569 @@
-[{
-    "ident":"E100 ", 
+[
+  {
+    "ident": "E100 ",
     "nombre": "Hidrodinámica Naval",
-    "marcador":{"lat":-39.832897,"lng":-73.252664},
-    "pisos":[
-        {
-            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        },
-        {
-            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        }],
-    "informacion":{"texto":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.","foto":"../images/FOTOEDIF"},
-    "servicio":{"tipo":"est","horario":["8am","8pm"]}
-},{
-    "ident":"E200",
+    "marcador": { "lat": -39.832897, "lng": -73.252664 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E200",
     "nombre": "Edmundo Rodríguez Porrier",
-    "marcador":{"lat":-39.833426,"lng":-73.251801}, 
-    "pisos":[
-        {
-            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        },
-        {
-            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        }],
-    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-    "servicio":{"tipo":"est","horario":["8am","8pm"]}
-},{
-    "ident":"E800",
+    "marcador": { "lat": -39.833426, "lng": -73.251801 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E800",
     "nombre": "Taller",
-    "marcador":{"lat":-39.831840,"lng":-73.250579},
-    "pisos":[
-        {
-            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        },
-        {
-            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        }],
-    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-    "servicio":{"tipo":"est","horario":["8am","8pm"]}
-},{
-    "ident":"E1000",
+    "marcador": { "lat": -39.83184, "lng": -73.250579 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E1000",
     "nombre": "Decanato",
-    "marcador":{"lat":-39.832894,"lng":-73.250856},
-    "pisos":[
-        {
-            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        },
-        {
-            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        }],
-    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-    "servicio":{"tipo":"est","horario":["8am","8pm"]}
-},{
-    "ident":"E2000",
-    "nombre":"Inés Bischoff Von Stillfried",
-    "marcador":{"lat":-39.833598,"lng":-73.251061},
-    "pisos":[
-        {
-            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        },
-        {
-            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        }],
-    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-    "servicio":{"tipo":"est","horario":["8am","8pm"]}
-},{
-    "ident":"E3000",
+    "marcador": { "lat": -39.832894, "lng": -73.250856 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E2000",
+    "nombre": "Inés Bischoff Von Stillfried",
+    "marcador": { "lat": -39.833598, "lng": -73.251061 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E3000",
     "nombre": "Luis Christen Adams",
-    "marcador":{"lat":-39.832783,"lng":-73.250204},
-    "pisos":[
-        {
-            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        },
-        {
-            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        }],
-    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-    "servicio":{"tipo":"est","horario":["8am","8pm"]}
-},{
-    "ident":"E4000",
+    "marcador": { "lat": -39.832783, "lng": -73.250204 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E4000",
     "nombre": "Astillero",
-    "marcador":{"lat":-39.832521,"lng":-73.253114},
-    "pisos":[
-        {
-            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        },
-        {
-            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        }],
-    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-    "servicio":{"tipo":"est","horario":["8am","8pm"]}
-},{
-    "ident":"E5000",
-    "nombre":"Casa Haverbeck",
-    "marcador":{"lat":-39.831856,"lng":-73.250807},
-    "pisos":[
-        {
-            "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        },
-        {
-            "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        }],
-    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-    "servicio":{"tipo":"est","horario":["8am","8pm"]}
-},{
-    "ident":"E6000",
+    "marcador": { "lat": -39.832521, "lng": -73.253114 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E5000",
+    "nombre": "Casa Haverbeck",
+    "marcador": { "lat": -39.831856, "lng": -73.250807 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E6000",
     "nombre": "Joaquín Castellano de Latorre",
-    "marcador":{"lat":-39.832381,"lng":-73.243886},
-    "pisos":[
-        {
-            "6300":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "6301":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        },
-        {
-            "6200":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-            "6201":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-        }],
-    "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-    "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"E7000",
-        "nombre":"Multimedial",
-        "marcador":{"lat":-39.833305,"lng":-73.252080},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"E8000",
-        "nombre":"Eduardo González Villa",
-        "marcador":{"lat":-39.834033,"lng":-73.245151},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"E9000",
-        "nombre":"Carlos Hunt Sharpe - Pabellón docente",
-        "marcador":{"lat":-39.833868,"lng":-73.246055},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"E10000",
-        "nombre":"Instituto de Informática",
-        "marcador":{"lat":-39.833399,"lng":-73.245197},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"E11000",
-        "nombre":"Instituto de Obras Civiles",
-        "marcador":{"lat":-39.832138,"lng":-73.250461},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"E12000",
-        "nombre" :"Biblioteca",
-        "marcador":{"lat":-39.831883,"lng":-73.244685},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"E13000", 
-        "nombre" :"Edificio Civil Industrial",
-        "marcador":{"lat":-39.831539,"lng":-73.244200},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"E14000", 
-        "nombre":"INNOVING 14K",
-        "marcador":{"lat":-39.832356,"lng":-73.245375},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"DAE", 
-        "nombre":"Casino",
-        "marcador":{"lat":-39.832168,"lng":-73.252353},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"Gym", 
-        "nombre":"Gimnasio",
-        "marcador":{"lat":-39.832578,"lng":-73.251753},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"Estadio", 
-        "nombre":"Estadio Universitario",
-        "marcador":{"lat":-39.834659,"lng":-73.245452},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    },{
-        "ident":"Psicología", 
-        "nombre":"Edificio Psicología",
-        "marcador":{"lat":-39.830999,"lng":-73.243199},
-        "pisos":[
-            {
-                "9000":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9001":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            },
-            {
-                "9100":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"},
-                "9101":{"informacion":"Esta en ...","foto":"../images/FOTOSALA"}
-            }],
-        "informacion":{"texto":"Este edificio es ...","foto":"../images/FOTOEDIF"},
-        "servicio":{"tipo":"est","horario":["8am","8pm"]}
-    }
+    "marcador": { "lat": -39.832381, "lng": -73.243886 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E7000",
+    "nombre": "Multimedial",
+    "marcador": { "lat": -39.833305, "lng": -73.25208 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E8000",
+    "nombre": "Eduardo González Villa",
+    "marcador": { "lat": -39.834033, "lng": -73.245151 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E9000",
+    "nombre": "Carlos Hunt Sharpe - Pabellón docente",
+    "marcador": { "lat": -39.833868, "lng": -73.246055 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E10000",
+    "nombre": "Instituto de Informática",
+    "marcador": { "lat": -39.833399, "lng": -73.245197 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E11000",
+    "nombre": "Instituto de Obras Civiles",
+    "marcador": { "lat": -39.832138, "lng": -73.250461 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E12000",
+    "nombre": "Biblioteca",
+    "marcador": { "lat": -39.831883, "lng": -73.244685 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E13000",
+    "nombre": "Edificio Civil Industrial",
+    "marcador": { "lat": -39.831539, "lng": -73.2442 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "E14000",
+    "nombre": "INNOVING 14K",
+    "marcador": { "lat": -39.832356, "lng": -73.245375 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "DAE",
+    "nombre": "Casino",
+    "marcador": { "lat": -39.832168, "lng": -73.252353 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "Gym",
+    "nombre": "Gimnasio",
+    "marcador": { "lat": -39.832578, "lng": -73.251753 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "Estadio",
+    "nombre": "Estadio Universitario",
+    "marcador": { "lat": -39.834659, "lng": -73.245452 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  },
+  {
+    "ident": "Psicología",
+    "nombre": "Edificio Psicología",
+    "marcador": { "lat": -39.830999, "lng": -73.243199 },
+    "pisos": [
+      {
+        "numero": 9001,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9002,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      },
+      {
+        "numero": 9003,
+        "informacion": "Esta en ...",
+        "foto": "../images/FOTOSALA"
+      }
+    ],
+    "informacion": {
+      "texto": "Este edificio es ...",
+      "foto": "../images/FOTOEDIF"
+    },
+    "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
+  }
 ]
