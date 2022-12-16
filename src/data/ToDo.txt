@@ -1,7 +1,6 @@
 -hacer que la barra de busqueda funcione
 -ver como poner elementos por encima del mapa 
--hacer el diseño de la targeta de informacion
--hacer que la punta del icono sea la coordenada (ahora la cordenada en el centro del png)
 -hacer que el mapa este lock en un zoom
 -hacer la pagina de informacion
+-hacer bien los css :(
 
