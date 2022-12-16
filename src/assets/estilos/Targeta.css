@@ -1,47 +1,25 @@
-.TargetaVacia{
-  width: 100%;
-  height: 100%;
+.TargetaInformacionEdificio{
   display: flex;
   flex-direction: column;
+  row-gap: 5px;
+}
+
+.EdificioLink{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 10px;
+  align-content: center;
+}
+
+.TargetaNombreEdificio{
   text-align: center;
 }
 
-.Targeta{
-  height: 100%;
-  padding: 0%;
-  margin: 0%;
-  display: flex;
-  flex-direction: column;
+.TargetaLinkEdificio{
 }
 
-.TargetaTitulo{
-  border-style: solid;
-  border-width: 1px;
-  width: 100%;
-  height: 10%;
-}
-
-.LinkPagina{
-  border-style: solid;
-  border-width: 1px;
-  width: 100%;
-  height: 5%;
-  font-size: 10px;
-}
-
-.InformacionSalas{
-  border-style: solid;
-  border-width: 1px;
-  width: 100%;
-  max-height: 85%;
+.ListaDeSalasEdificio{
   overflow-y: scroll;
-}
-
-.TituloInformacionSalas{
-  height: 5%;
-}
-
-.ListaDeLasSalas{
-  overflow-y:auto;
-  max-height: 95%;
+  padding: 5px;
+  max-height: 147px;
 }

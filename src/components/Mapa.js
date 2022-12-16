@@ -3,15 +3,38 @@ import SearchBar from "./SearchBar";
 import Informacion from "./Informacion";
 import MapView from "./MapView";
 import Horario from "./Horario";
+import "../assets/estilos/App.css";
 
 export default function Mapa() {
   const [selectPosition, setSelectPosition] = useState(null);
+  return (
+    <div className="BasePaginaInicial">
+      <div className="BusquedaInicial">
+        <SearchBar
+          selectPosition={selectPosition}
+          setSelectPosition={setSelectPosition}
+        />
+      </div>
+      <div className="InformacionInicial">
+        <div className="VistaDelMapa">
+          <MapView selectPosition={selectPosition} />
+        </div>
+        <div className="VistaEdificioHorario">
+          <div className="VistaEdificio">
+            <Informacion selectPosition={selectPosition} />
+          </div>
+          <div className="VistaHorario">
+          <Horario/>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+/**
+ * const [selectPosition, setSelectPosition] = useState(null);
 
   return (
-    /** Esta es la base de la app, es principalmente
-     * la base de la pagina, a travez de aqui se llaman
-     * a los componente de la app.
-     */
     <div className="Base">
       <div className="Buscador">
         <SearchBar
@@ -32,4 +55,4 @@ export default function Mapa() {
       </div>
     </div>
   );
-}
+ */

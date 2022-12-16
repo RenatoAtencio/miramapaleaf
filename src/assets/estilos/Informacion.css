@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-body{
-  background-color: rgb(126, 114, 168);
-}
-
 .BaseInformacion{
   width: 90%;
   max-width: 1200px;

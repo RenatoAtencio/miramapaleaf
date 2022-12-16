@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { MapContainer, Marker, TileLayer, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import "../assets/estilos/App.css";
 
 /** Esto es para el icono, solo selecciona la imagen y define el tamaño */
 const markerIcon = new L.icon({

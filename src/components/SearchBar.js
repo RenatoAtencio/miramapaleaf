@@ -11,7 +11,6 @@ import "../assets/estilos/App.css";
 export default function SearchBar(props) {
   const { selectPosition, setSelectPosition } = props;
   const [searchText, setSearchText] = useState("");
-
   return (
     /**Seccion de la busqueda de salas */
     <div className="MenuDeBusqueda">
