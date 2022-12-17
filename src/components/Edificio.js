@@ -40,7 +40,9 @@ export default function Edificio() {
             </List>
           </div>
         </div>
-        <div className="InformacionSeleccionada"></div>
+        <div className="InformacionSeleccionada">
+          <p>{selectPosition.informacion.texto}</p>
+        </div>
         <div className="SeccionDeFotos">
           <img
             src={IMAGENES(`./${selectPosition?.informacion.foto}.jpg`)}
