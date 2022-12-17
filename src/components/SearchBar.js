@@ -27,32 +27,24 @@ export default function SearchBar(props) {
           <Button variant="contained">Buscar</Button>
         </div>
       </div>
-      <div className="dropdown">
+      <div>
         <List>
-          {Edificios.filter((item) => {
-            const lugarBuscado = searchText.toLowerCase();
-            const edificioBuscado = item.ident.toLowerCase();
-            {
-              /*const salaBuscada = item.ident.pisos.numero.toLowerCase();*/
-            }
+          
+        {Edificios.map((item) => {
             return (
-              lugarBuscado &&
-              edificioBuscado.startsWith(lugarBuscado) &&
-              edificioBuscado !== lugarBuscado
-            );
-          })
-            .slice(0, 10)
-            .map((item) => (
-              <div
-                onClick={(event) => {
-                  setSearchText(event.target.value);
-                }}
-                className="dropdown-row"
-                key={item.ident}
-              >
-                {item.ident}
+              <div key={item?.ident}>
+                <ListItem
+                  button
+                  onClick={() => {
+                    setSelectPosition(item);
+                  }}
+                > 
+                  <ListItemText primary={item?.ident} />
+                </ListItem>
+                <Divider />
               </div>
-            ))}
+            );
+          })}
         </List>
       </div>
     </div>
