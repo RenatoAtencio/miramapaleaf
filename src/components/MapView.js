@@ -24,6 +24,7 @@ function ResetCenterView(props) {
         map.getZoom(),
         {
           animate: true,
+          maxZoom:3
         }
       );
     }

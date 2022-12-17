@@ -17,7 +17,7 @@ Header{
   flex-direction: column;
   align-items: center;
   height: 100px;
-  max-height: 100px;
+  overflow: hidden;
 }
 
 .IconoNavegador{
@@ -26,6 +26,8 @@ Header{
 }
 
 .TituloNavegador{
+  position: absolute;
+  top: 30px;
 }
 
 .BasePaginaInicial{

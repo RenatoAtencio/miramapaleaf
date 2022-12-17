@@ -15,11 +15,14 @@
   text-align: center;
 }
 
-.TargetaLinkEdificio{
-}
-
 .ListaDeSalasEdificio{
   overflow-y: scroll;
   padding: 5px;
   max-height: 147px;
+}
+
+.IconEdificio{
+  width: 40px;
+  position:absolute;
+  bottom: 160px;
 }

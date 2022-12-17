@@ -24,7 +24,7 @@ export default function Informacion(props) {
           </div>
           <div className="TargetaLinkEdificio">
             <Link to="/Edificio" state={{ selectPosition }}>
-              <img alt="LogoEdificio" />
+              Informacion
             </Link>
           </div>
         </div>

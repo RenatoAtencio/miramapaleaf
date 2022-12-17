@@ -5,13 +5,15 @@ import Edificio from "./components/Edificio";
 import Mapa from "./components/Mapa";
 import { Link } from "react-router-dom";
 
+import logo from "./assets/IconUach.png";
+
 function App() {
   return (
     <>
       <header>
         <nav className="IconoNavegador">
           <Link to="/">
-            <img alt="logo" />
+            <img src={logo} alt="logo" />
           </Link>
         </nav>
         <h1 className="TituloNavegador">MiraMapa</h1>

@@ -24,35 +24,10 @@ export default function Mapa() {
             <Informacion selectPosition={selectPosition} />
           </div>
           <div className="VistaHorario">
-          <Horario/>
+            <Horario />
           </div>
         </div>
       </div>
     </div>
   );
 }
-/**
- * const [selectPosition, setSelectPosition] = useState(null);
-
-  return (
-    <div className="Base">
-      <div className="Buscador">
-        <SearchBar
-          selectPosition={selectPosition}
-          setSelectPosition={setSelectPosition}
-        />
-      </div>
-      <div className="Informacion-Horario">
-        <div className="Horario">
-          <Horario/>
-        </div>
-        <div className="Informacion">
-          <Informacion selectPosition={selectPosition} />
-        </div>
-      </div>
-      <div className="Mapa">
-        <MapView selectPosition={selectPosition} />
-      </div>
-    </div>
-  );
- */
