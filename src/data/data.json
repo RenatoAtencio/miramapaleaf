@@ -5,72 +5,72 @@
     "marcador": { "lat": -39.832897, "lng": -73.252664 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9004,
+        "numero": "9004",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9005,
+        "numero": "9005",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9007,
+        "numero": "9007",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9008,
+        "numero": "9008",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9009,
+        "numero": "9009",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9010,
+        "numero": "9010",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9011,
+        "numero": "9011",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9012,
+        "numero": "9012",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9013,
+        "numero": "9013",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9014,
+        "numero": "9014",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9015,
+        "numero": "9015",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -87,17 +87,17 @@
     "marcador": { "lat": -39.833426, "lng": -73.251801 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -114,17 +114,17 @@
     "marcador": { "lat": -39.83184, "lng": -73.250579 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -141,17 +141,17 @@
     "marcador": { "lat": -39.832894, "lng": -73.250856 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -168,17 +168,17 @@
     "marcador": { "lat": -39.833598, "lng": -73.251061 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -195,17 +195,17 @@
     "marcador": { "lat": -39.832783, "lng": -73.250204 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -222,17 +222,17 @@
     "marcador": { "lat": -39.832521, "lng": -73.253114 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -249,17 +249,17 @@
     "marcador": { "lat": -39.831856, "lng": -73.250807 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -276,17 +276,17 @@
     "marcador": { "lat": -39.832381, "lng": -73.243886 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -303,17 +303,17 @@
     "marcador": { "lat": -39.833305, "lng": -73.25208 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -330,17 +330,17 @@
     "marcador": { "lat": -39.834033, "lng": -73.245151 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -357,17 +357,17 @@
     "marcador": { "lat": -39.833868, "lng": -73.246055 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -384,17 +384,17 @@
     "marcador": { "lat": -39.833399, "lng": -73.245197 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -411,17 +411,17 @@
     "marcador": { "lat": -39.832138, "lng": -73.250461 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -438,17 +438,17 @@
     "marcador": { "lat": -39.831883, "lng": -73.244685 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -465,17 +465,17 @@
     "marcador": { "lat": -39.831539, "lng": -73.2442 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -492,17 +492,17 @@
     "marcador": { "lat": -39.832356, "lng": -73.245375 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -519,17 +519,17 @@
     "marcador": { "lat": -39.832168, "lng": -73.252353 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -546,17 +546,17 @@
     "marcador": { "lat": -39.832578, "lng": -73.251753 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -573,17 +573,17 @@
     "marcador": { "lat": -39.834659, "lng": -73.245452 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }
@@ -600,17 +600,17 @@
     "marcador": { "lat": -39.830999, "lng": -73.243199 },
     "pisos": [
       {
-        "numero": 9001,
+        "numero": "9001",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9002,
+        "numero": "9002",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       },
       {
-        "numero": 9003,
+        "numero": "9003",
         "informacion": "Esta en ...",
         "foto": "FotoPrueba"
       }

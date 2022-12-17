@@ -35,6 +35,7 @@ Header{
   width: auto;
   padding: 10px;
   grid-template-columns: 25% 75%;
+  height: 600px;
 }
 
 .BusquedaInicial{
@@ -78,4 +79,30 @@ Header{
 
 .VistaHorario{
   flex-grow: 3;
+}
+
+.BarraBoton{
+  display: flex;
+}
+
+.BotonBusqueda{
+  align-self: center;
+}
+
+
+.dropdown {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+}
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdown-row {
+  cursor: pointer;
+  text-align: start;
+  margin: 2px 0;
 }
