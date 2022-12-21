@@ -6,13 +6,13 @@
     "pisos": [
       {
         "numero": "9001",
-        "informacion": "Esta en ...",
-        "foto": "FotoPrueba"
+        "informacion": "Esta en la sala 9001",
+        "foto": "FotoSala9001"
       },
       {
         "numero": "9002",
-        "informacion": "Esta en ...",
-        "foto": "FotoPrueba"
+        "informacion": "Esta en la sala 9002",
+        "foto": "FotoSala9002"
       },
       {
         "numero": "9003",

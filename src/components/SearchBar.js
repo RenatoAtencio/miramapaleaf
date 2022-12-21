@@ -27,24 +27,36 @@ export default function SearchBar(props) {
           <Button variant="contained">Buscar</Button>
         </div>
       </div>
-      <div>
+      <div className="ListaEdificios">
         <List>
-          
-        {Edificios.map((item) => {
+          {Edificios.filter((item) => {
+            const lugarBuscado = searchText.toLowerCase();
+            const edificioBuscado = item.ident.toLowerCase();
+            {
+              /*const salaBuscada = item.ident.pisos.numero.toLowerCase();*/
+            }
             return (
-              <div key={item?.ident}>
+              lugarBuscado &&
+              edificioBuscado.startsWith(lugarBuscado) &&
+              edificioBuscado !== lugarBuscado
+            );
+          })
+            .slice(0, 30)
+            .map((item) => (
+              <div>
                 <ListItem
+                  className="dropdown-row"
+                  key={item.ident}
                   button
                   onClick={() => {
                     setSelectPosition(item);
                   }}
-                > 
+                >
                   <ListItemText primary={item?.ident} />
                 </ListItem>
                 <Divider />
               </div>
-            );
-          })}
+            ))}
         </List>
       </div>
     </div>
@@ -117,7 +129,4 @@ export default function SearchBar(props) {
               </div>
             );
           })}
-
-
-
  */

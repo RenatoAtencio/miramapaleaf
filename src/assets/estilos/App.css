@@ -20,6 +20,20 @@ Header{
   overflow: hidden;
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgb(255,202,123);
+  border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgb(237, 168, 66);
+  border-radius: 100vw;
+}
+
 .IconoNavegador{
   padding: 5px;
   align-self: flex-start;
@@ -35,13 +49,13 @@ Header{
   width: auto;
   padding: 10px;
   grid-template-columns: 25% 75%;
-  height: 600px;
+  height: 620px;
 }
 
 .BusquedaInicial{
   padding: 10px;
   max-height: 600px;
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .InformacionInicial{
@@ -88,7 +102,6 @@ Header{
 .BotonBusqueda{
   align-self: center;
 }
-
 
 .dropdown {
   background-color: white;
