@@ -4,7 +4,7 @@ import "../assets/estilos/Horarios.css";
 export default function Horario(){
     return (
         <div>
-            <h4 contentEditable>Horario</h4>
+            <h4>Horario</h4>
             <box>
             <table className="tabla">
                 <tr>
