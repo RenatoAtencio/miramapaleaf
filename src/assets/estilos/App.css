@@ -5,12 +5,12 @@
 }
 
 body {
-  background-color: rgb(255,237,191);
-  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(255, 237, 191);
+  font-family: "Times New Roman", Times, serif;
 }
 
-Header{
-  background-color: rgb(255,202,123);
+Header {
+  background-color: rgb(255, 202, 123);
   width: 100%;
   padding: 10px;
   display: flex;
@@ -20,31 +20,31 @@ Header{
   overflow: hidden;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 10px;
 }
 
-::-webkit-scrollbar-track{
-  background: rgb(255,202,123);
+::-webkit-scrollbar-track {
+  background: rgb(255, 202, 123);
   border-radius: 100vw;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background: rgb(237, 168, 66);
   border-radius: 100vw;
 }
 
-.IconoNavegador{
+.IconoNavegador {
   padding: 5px;
   align-self: flex-start;
 }
 
-.TituloNavegador{
+.TituloNavegador {
   position: absolute;
   top: 30px;
 }
 
-.BasePaginaInicial{
+.BasePaginaInicial {
   display: grid;
   width: auto;
   padding: 10px;
@@ -52,13 +52,13 @@ Header{
   height: 620px;
 }
 
-.BusquedaInicial{
+.BusquedaInicial {
   padding: 10px;
   max-height: 600px;
   overflow-y: auto;
 }
 
-.InformacionInicial{
+.InformacionInicial {
   max-height: 600px;
   overflow: hidden;
   display: grid;
@@ -66,41 +66,41 @@ Header{
   grid-template-rows: 70% 30%;
 }
 
-.VistaDelMapa{
+.VistaDelMapa {
   padding: 10px;
   height: 100%;
   width: auto;
 }
 
-.Mapa{
+.Mapa {
   height: 100%;
   width: 100%;
   position: relative;
   max-width: 100%;
-  max-height:100% ;
+  max-height: 100%;
 }
 
-.VistaEdificioHorario{
+.VistaEdificioHorario {
   display: flex;
   padding: 10px;
   column-gap: 10px;
 }
 
-.VistaEdificio{
+.VistaEdificio {
   max-width: 180px;
   flex-grow: 1;
 }
 
-.VistaHorario{
+.VistaHorario {
   flex-grow: 3;
   overflow-y: scroll;
 }
 
-.BarraBoton{
+.BarraBoton {
   display: flex;
 }
 
-.BotonBusqueda{
+.BotonBusqueda {
   align-self: center;
 }
 

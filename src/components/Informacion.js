@@ -12,7 +12,7 @@ export default function Informacion(props) {
   if (selectPosition?.ident === undefined) {
     return (
       <div className="TargetaInformacionVacia">
-        <p>Selecciona o busca una sala o edificio</p>
+        <p>Busca un edificio</p>
       </div>
     );
   } else {
@@ -20,11 +20,12 @@ export default function Informacion(props) {
       <div className="TargetaInformacionEdificio">
         <div className="EdificioLink">
           <div className="TargetaNombreEdificio">
-            <h4>{selectPosition?.ident}</h4>
+            <p>{selectPosition?.ident}</p>
+            <p>Lista de las salas:</p>
           </div>
           <div className="TargetaLinkEdificio">
             <Link to="/Edificio" state={{ selectPosition }}>
-              Informacion
+              Informacion 
             </Link>
           </div>
         </div>

@@ -33,9 +33,6 @@ export default function SearchBar(props) {
             const lugarBuscado = searchText.toLowerCase();
             const edificioBuscado = item.ident.toLowerCase();
             const nombreEdificioBuscado = item.nombre.toLowerCase();
-            {
-              /*const salaBuscada = item.ident.pisos.numero.toLowerCase();*/
-            }
             return (
               lugarBuscado &&
               (edificioBuscado.startsWith(lugarBuscado) ||

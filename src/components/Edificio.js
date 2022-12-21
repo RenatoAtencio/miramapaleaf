@@ -18,7 +18,8 @@ export default function Edificio() {
       <div className="BaseInformacion">
         <div className="NombreEdificioLista">
           <div className="NombreEdificio">
-            <p>{selectPosition.ident}:{selectPosition.nombre}</p>
+            <p>{selectPosition.ident}</p>
+            <p>{selectPosition.nombre}</p>
           </div>
           <div className="ListaSalas">
             <List>
@@ -56,7 +57,8 @@ export default function Edificio() {
       <div className="BaseInformacion">
         <div className="NombreEdificioLista">
           <div className="NombreEdificio">
-            <p>{selectPosition.ident}:{selectPosition.nombre}</p>
+            <p>{selectPosition.ident}</p>
+            <p>{selectPosition.nombre}</p>
           </div>
           <div className="ListaSalas">
             <List>
@@ -79,8 +81,11 @@ export default function Edificio() {
           </div>
         </div>
         <div className="InformacionSeleccionada">
-          <div>
+          <div className="EdificioInformacion">
             <p>{selectPosition.informacion.texto}</p>
+          </div>
+          <div className="SalaInformacion">
+            <p>Informacion Sala {Sala.numero}</p>
             <p>{Sala.informacion}</p>
           </div>
         </div>

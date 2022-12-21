@@ -1,4 +1,4 @@
-.BaseInformacion{
+.BaseInformacion {
   display: grid;
   grid-template-columns: 1fr 1fr 4fr;
   gap: 10px;
@@ -6,18 +6,37 @@
   max-height: 620px;
 }
 
-.NombreEdificioLista{
+.NombreEdificioLista {
   display: grid;
-  grid-template-rows: 10% 90%;
+  grid-template-rows: 15% 85%;
   row-gap: 10px;
-  max-height: 600px;
+  max-height: 590px;
 }
-.NombreEdificio{
+.NombreEdificio {
   text-align: center;
   font-size: 30px;
   width: auto;
 }
 
-.ListaSalas{
+.ListaSalas {
   overflow-y: auto;
+}
+
+.InformacionSeleccionada{
+  display: grid;
+  grid-template-rows: 50% 50%;
+  row-gap: 10px;
+}
+
+.EdificioInformacion{
+  overflow-y: auto;
+}
+
+.SalaInformacion{
+  overflow-y: auto;
+  text-align: center;
+}
+
+.SeccionDeFotos{
+  overflow: hidden;
 }
