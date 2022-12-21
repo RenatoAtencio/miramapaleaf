@@ -15,7 +15,7 @@
 .NombreEdificio{
   text-align: center;
   font-size: 30px;
-  overflow-y: auto;
+  width: auto;
 }
 
 .ListaSalas{

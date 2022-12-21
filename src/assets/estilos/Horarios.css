@@ -2,6 +2,7 @@ table th{
     border-width: 1px;
     border-style: solid;
     height: 5vh;
+    width: 10em;
     
 }
 table{
@@ -11,6 +12,7 @@ table{
 tr:nth-of-type(1)>th{
     background-color: #f65063;
 }
+
 h4{
     font-size: 10px;
 }
