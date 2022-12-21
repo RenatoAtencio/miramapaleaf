@@ -93,6 +93,7 @@ Header{
 
 .VistaHorario{
   flex-grow: 3;
+  overflow-y: scroll;
 }
 
 .BarraBoton{
