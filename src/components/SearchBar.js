@@ -32,12 +32,13 @@ export default function SearchBar(props) {
           {Edificios.filter((item) => {
             const lugarBuscado = searchText.toLowerCase();
             const edificioBuscado = item.ident.toLowerCase();
+            const nombreEdificioBuscado = item.nombre.toLowerCase();
             {
               /*const salaBuscada = item.ident.pisos.numero.toLowerCase();*/
             }
             return (
-              lugarBuscado &&
-              edificioBuscado.startsWith(lugarBuscado) &&
+              lugarBuscado && (edificioBuscado.startsWith(lugarBuscado) || nombreEdificioBuscado.startsWith(lugarBuscado))
+               &&
               edificioBuscado !== lugarBuscado
             );
           })

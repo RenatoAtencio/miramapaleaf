@@ -56,7 +56,7 @@ export default function Edificio() {
       <div className="BaseInformacion">
         <div className="NombreEdificioLista">
           <div className="NombreEdificio">
-            <p>{selectPosition.ident}</p>
+            <p>{selectPosition.ident}:{selectPosition.nombre}</p>
           </div>
           <div className="ListaSalas">
             <List>
