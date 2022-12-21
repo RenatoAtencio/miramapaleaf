@@ -53,7 +53,7 @@ export default function SearchBar(props) {
                     setSelectPosition(item);
                   }}
                 >
-                  <ListItemText primary={item?.ident} />
+                  <ListItemText primary={`${item?.ident} | ${item?.nombre}`} />
                 </ListItem>
                 <Divider />
               </div>
