@@ -69,6 +69,7 @@ export default function Edificio() {
                       button
                       onClick={() => {
                         setSala(item);
+                        console.log(item);
                       }}
                     >
                       <ListItemText primary={item?.numero} />
@@ -80,11 +81,11 @@ export default function Edificio() {
             </List>
           </div>
           <div className="InformacionSeleccionadaSala">
-            <div>
-              <p>Informacion Sala {Sala.numero}</p>
+            <div className="InformacionEdificio">
+              <p>{selectPosition?.informacion.texto}</p>
             </div>
             <div className="InformacionSala">
-              <p>{Sala.informacion}</p>
+              <p>{Sala?.informacion}</p>
             </div>
           </div>
         </div>

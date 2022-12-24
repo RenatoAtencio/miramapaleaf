@@ -38,10 +38,15 @@
   text-align: center;
 }
 
+.InformacionEdificio{
+  overflow-y: auto;
+}
+
 .InformacionSala{
   border-top:solid;
   border-top-width:1px ;
   border-top-color:rgb(161, 118, 54) ;
+  overflow-y: auto;
 }
 
 .SeccionDeFotos{
