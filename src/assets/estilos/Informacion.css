@@ -1,42 +1,56 @@
-.BaseInformacion {
+.BaseInformacion{
   display: grid;
-  grid-template-columns: 1fr 1fr 4fr;
-  gap: 10px;
+  grid-template-columns: 20% 80%;
   padding: 10px;
-  max-height: 620px;
 }
 
-.NombreEdificioLista {
+.EdificioListaInfo{
   display: grid;
-  grid-template-rows: 15% 85%;
-  row-gap: 10px;
-  max-height: 590px;
-}
-.NombreEdificio {
-  text-align: center;
-  font-size: 30px;
-  width: auto;
+  grid-template-rows: 20% 40% 40%;
+  height: 600px;
+  max-height: 600px;
 }
 
-.ListaSalas {
+.NombreEdificio{
+  font-size: 30px;
+  border-style: solid;
+  text-align: center;
+  border-width: 1px;
+}
+
+.ListaSalas{
+  border-style: solid;
+  border-width: 1px;
   overflow-y: auto;
 }
 
 .InformacionSeleccionada{
-  display: grid;
-  grid-template-rows: 50% 50%;
-  row-gap: 10px;
-}
-
-.EdificioInformacion{
-  overflow-y: auto;
-}
-
-.SalaInformacion{
-  overflow-y: auto;
+  border-style: solid;
+  border-width: 1px;
   text-align: center;
 }
 
+.InformacionSeleccionadaSala{
+  border-style: solid;
+  border-width: 1px;
+  display: grid;
+  grid-template-rows: 50% 50%;
+  text-align: center;
+}
+
+.InformacionSala{
+  border-top:solid;
+  border-top-width:1px ;
+  border-top-color:rgb(161, 118, 54) ;
+}
+
 .SeccionDeFotos{
-  overflow: hidden;
+  display: flex;
+  padding: 10px;
+  gap:10px;
+  border-style: solid;
+  border-width: 1px;
+  overflow-y: hidden;
+  max-height: 600px;
+  overflow-x: auto;
 }

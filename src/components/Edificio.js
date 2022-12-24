@@ -16,7 +16,7 @@ export default function Edificio() {
   if (Sala === null) {
     return (
       <div className="BaseInformacion">
-        <div className="NombreEdificioLista">
+        <div className="EdificioListaInfo">
           <div className="NombreEdificio">
             <p>{selectPosition.ident}</p>
             <p>{selectPosition.nombre}</p>
@@ -40,9 +40,9 @@ export default function Edificio() {
               })}
             </List>
           </div>
-        </div>
-        <div className="InformacionSeleccionada">
-          <p>{selectPosition.informacion.texto}</p>
+          <div className="InformacionSeleccionada">
+            <p>{selectPosition.informacion.texto}</p>
+          </div>
         </div>
         <div className="SeccionDeFotos">
           <img
@@ -55,7 +55,7 @@ export default function Edificio() {
   } else {
     return (
       <div className="BaseInformacion">
-        <div className="NombreEdificioLista">
+        <div className="EdificioListaInfo">
           <div className="NombreEdificio">
             <p>{selectPosition.ident}</p>
             <p>{selectPosition.nombre}</p>
@@ -79,17 +79,17 @@ export default function Edificio() {
               })}
             </List>
           </div>
-        </div>
-        <div className="InformacionSeleccionada">
-          <div className="EdificioInformacion">
-            <p>{selectPosition.informacion.texto}</p>
-          </div>
-          <div className="SalaInformacion">
-            <p>Informacion Sala {Sala.numero}</p>
-            <p>{Sala.informacion}</p>
+          <div className="InformacionSeleccionadaSala">
+            <div>
+              <p>Informacion Sala {Sala.numero}</p>
+            </div>
+            <div className="InformacionSala">
+              <p>{Sala.informacion}</p>
+            </div>
           </div>
         </div>
         <div className="SeccionDeFotos">
+          <img src={IMAGENES(`./${Sala?.foto}.jpg`)} alt={Sala?.foto} />
           <img
             src={IMAGENES(`./${selectPosition?.informacion.foto}.jpg`)}
             alt={selectPosition?.informacion.foto}
