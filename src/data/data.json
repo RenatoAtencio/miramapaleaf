@@ -289,7 +289,17 @@
     "marcador": { "lat": -39.833399, "lng": -73.245197 },
     "pisos": [
       {
-        "numero": "SalaPrueba",
+        "numero": "Llancahue",
+        "informacion": "Esto es texto de prueba",
+        "foto": "FotoSinImagen"
+      },
+      {
+        "numero": "Mancera",
+        "informacion": "Esto es texto de prueba",
+        "foto": "FotoSinImagen"
+      },
+      {
+        "numero": "Curiñanco",
         "informacion": "Esto es texto de prueba",
         "foto": "FotoSinImagen"
       }
