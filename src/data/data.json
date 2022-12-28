@@ -7,12 +7,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -24,12 +24,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -41,12 +41,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -58,12 +58,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -75,7 +75,7 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
@@ -92,12 +92,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -109,12 +109,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "E4000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -126,12 +126,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -142,57 +142,72 @@
     "pisos": [
       {
         "numero": "6301",
-        "informacion": "Esta es la sala 6301",
+        "informacion": "Sala 6301, tiene un cartel de madera en la puerta que indica el número de la sala",
         "foto": "6301"
       },
       {
         "numero": "6302",
-        "informacion": "Esta es la sala 6302",
+        "informacion": "Sala 6302, tiene un cartel de madera en la puerta que indica el número de la sala",
         "foto": "6302"
       },
       {
         "numero": "6303",
-        "informacion": "Esta es la sala 6303",
+        "informacion": "Sala 6303, tiene un cartel de madera en la puerta que indica el número de la sala",
         "foto": "6303"
       },
       {
         "numero": "6304",
-        "informacion": "Esta es la sala 6304",
+        "informacion": "Sala 6304, tiene un cartel de madera en la puerta que indica el número de la sala",
         "foto": "6304"
       },
       {
         "numero": "6305",
-        "informacion": "Esta es la sala 6305",
+        "informacion": "Sala 6305, tiene un cartel de madera en la puerta que indica el número de la sala",
         "foto": "6305"
       },
       {
         "numero": "6306",
-        "informacion": "Esta es la sala 6306",
+        "informacion": "Sala 6306, tiene un cartel de madera en la puerta que indica el número de la sala",
         "foto": "6306"
       },
       {
         "numero": "6307",
-        "informacion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan molestie est eget porttitor. Curabitur luctus non felis ut dignissim. Aliquam eget aliquet turpis, eu pellentesque ligula. Nam eget mauris at ex congue maximus. Vivamus nibh dui, egestas nec nunc in, mollis mattis ligula. Nunc dapibus commodo nulla non imperdiet. Morbi at rutrum tellus. Nunc vitae orci est. Nulla et velit dolor. Nullam dictum ligula non velit euismod pellentesque. In in maximus lectus, at ultrices nisi.Vivamus diam purus, porttitor id quam ut, tempor rutrum diam. Etiam congue mollis enim eu consequat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur laoreet libero sed urna bibendum rhoncus. Suspendisse magna nisi, sollicitudin quis porta nec, lacinia sit amet leo. Donec et neque at neque tincidunt tempor a ac massa. Aliquam finibus feugiat malesuada. Duis lorem ligula, tempus sit amet quam sed, vestibulum ullamcorper tortor. Proin eleifend elementum feugiat. Etiam venenatis orci sit amet est tempor, nec interdum tellus fermentum. Duis dictum justo eros, sit amet tincidunt ante varius at. Proin efficitur arcu quis vestibulum tempus. Suspendisse placerat facilisis risus vel fringilla. Vestibulum eget tortor eget nisi vulputate dictum sed at purus.Nulla sit amet imperdiet enim, vitae ultricies nulla. Morbi id elit semper, fringilla magna quis, egestas dolor. Integer congue nunc nec eleifend laoreet. Integer egestas hendrerit diam at imperdiet. Integer accumsan pharetra ullamcorper. Aenean feugiat ipsum in felis cursus, accumsan porttitor lacus vehicula. Nulla nibh nulla, gravida nec purus eu, blandit pulvinar ligula. Nunc tristique gravida lectus, consequat fermentum ex mollis in. Nunc eget congue sem. Cras quam nibh, lobortis sit amet ipsum pellentesque, condimentum ornare diam. Nullam viverra vulputate pulvinar. Phasellus feugiat felis quis ligula blandit, ac consectetur tortor commodo. Curabitur consequat libero in eros mollis, quis ornare eros convallis. Curabitur ornare placerat lorem. Vivamus neque tellus, cursus quis leo ac, mattis vehicula nisi.Vivamus imperdiet varius leo, sed porta augue dictum vel. Duis egestas purus dolor, vitae suscipit magna lobortis sed. Nullam at tempor neque. In molestie neque sit amet ex consequat, at gravida diam maximus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi imperdiet nulla neque, vitae bibendum neque tempor ut. Integer sit amet nisi semper, rhoncus diam id, commodo orci. Proin dignissim condimentum sagittis. Vestibulum molestie est et purus vestibulum dapibus. Etiam et enim consequat, sollicitudin libero vitae, ornare mauris. Quisque posuere, mi quis varius tincidunt, turpis libero feugiat lorem, ut porta mi nunc ut lectus. Nullam accumsan est quis sollicitudin consequat.Nullam ut tortor vestibulum, sodales neque eu, egestas mi. Donec lacinia nunc eget dolor tempus, vel consequat enim facilisis. Vivamus tempus feugiat mauris, nec mollis ante viverra vel. Morbi sollicitudin nisi nulla, ultrices condimentum dui rutrum vitae. Nulla blandit tellus id quam lobortis laoreet. Praesent varius sem quis tempus ultrices. Etiam imperdiet sit amet est et ultrices. Aliquam molestie mi augue, eu viverra metus consectetur non. Donec vel tellus non diam interdum porta. In finibus augue purus, in egestas odio bibendum eget. Curabitur arcu tellus, porta eu porta a, consequat sed sem. Morbi lorem nunc, sagittis sed malesuada at, consectetur non leo.",
+        "informacion": "Sala 6307, tiene un cartel de madera en la puerta que indica el número de la sala",
         "foto": "6307"
       },
       {
         "numero": "6308",
-        "informacion": "Esta es la sala 6308",
+        "informacion": "Sala 6308, tiene un cartel de madera en la puerta que indica el número de la sala",
         "foto": "6308"
       },
       {
         "numero": "6309",
-        "informacion": "Esta es la sala 6309",
+        "informacion": "Sala 6309, tiene un cartel de madera en la puerta que indica el número de la sala",
         "foto": "6309"
       },
       {
         "numero": "6310",
-        "informacion": "Esta es la sala 6310",
+        "informacion": "Sala 6310, tiene un cartel de madera en la puerta que indica el número de la sala",
         "foto": "6310"
+      },
+      {
+        "numero": "Laboratio A",
+        "informacion": "Esta al lado de las oficinas de los profesores de ciencias",
+        "foto": "FotoSinImagen"
+      },
+      {
+        "numero": "Laboratio B",
+        "informacion": "Esta al lado de las oficinas de los profesores de ciencias",
+        "foto": "FotoSinImagen"
+      },
+      {
+        "numero": "Laboratio de química",
+        "informacion": "Este se encuentra al lado de las oficinas de los profesores de matemáticas",
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
-      "texto": "El edificio 6000 tiene una cafeteria y estacionamiento para bicicletas, ademas en este edificio se encuentran las oficinas de los profesores de ciencias y matematicas",
+      "texto": "El edificio 6000 o edificio Joaquín Castellano de Latorre tiene salas y laboratorios para el uso de los estudiantes, también presenta una cafetería donde se puede ir comprar distintos comestibles, además en el edificio se encuentran las oficinas de los profesores de ciencias y matemáticas.",
       "foto": "E6000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
@@ -205,32 +220,32 @@
       {
         "numero": "7101",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       },
       {
         "numero": "7102",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       },
       {
         "numero": "7103",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       },
       {
         "numero": "7201",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       },
       {
         "numero": "7202",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "texto": "Tiene un total de 8 salas, las del primer y segundo piso son salas normales, en el tercero hay dos auditorios y en el cuarto piso se encuentran dos laboratorios de computación",
+      "foto": "E7000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -242,12 +257,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "E8000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -259,7 +274,7 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
@@ -276,12 +291,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "E10000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -293,12 +308,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -310,12 +325,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -327,12 +342,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -344,12 +359,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -361,12 +376,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -378,12 +393,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -395,12 +410,12 @@
       {
         "numero": "Este edificio no tiene salas",
         "informacion": "Es una cancha",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -412,12 +427,12 @@
       {
         "numero": "SalaPrueba",
         "informacion": "Esto es texto de prueba",
-        "foto": "FotoPrueba"
+        "foto": "FotoSinImagen"
       }
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoPrueba"
+      "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   }
