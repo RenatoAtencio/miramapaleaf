@@ -330,7 +330,7 @@
     ],
     "informacion": {
       "texto": "Para entrar se debe entregar el carnet o la tui y guardar las pertenencias en uno de los casilleros, se puede estudiar adentro y pedir libros, también se pueden pedir calculadoras científicas.",
-      "foto": "E120000"
+      "foto": "E12000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -380,8 +380,8 @@
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
-      "foto": "FotoSinImagen"
+      "texto": "En el primer piso de este edificio se encuentra la DAE (dirección de asuntos estudiantiles) donde se hacen las consultas con respecto a la universidad también hay una sala multitarea donde se puede estudiar. En el segundo piso esta el casino",
+      "foto": "Casino"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
