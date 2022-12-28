@@ -397,8 +397,8 @@
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
-      "foto": "FotoSinImagen"
+      "texto": "Aqui se hacen las clases de Ed. Fisica y los talleres de deporte",
+      "foto": "Gimnasio"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -414,7 +414,7 @@
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
+      "texto": "Es una cancha para hacer ed fisica o optativos de deporte",
       "foto": "Estadio"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
