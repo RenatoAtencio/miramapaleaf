@@ -1,6 +1,6 @@
 [
   {
-    "ident": "E100 ",
+    "ident": "Edificio 100 ",
     "nombre": "Hidrodinámica Naval",
     "marcador": { "lat": -39.832897, "lng": -73.252664 },
     "pisos": [
@@ -17,7 +17,7 @@
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E200",
+    "ident": "Edificio 200",
     "nombre": "Edmundo Rodríguez Porrier",
     "marcador": { "lat": -39.833426, "lng": -73.251801 },
     "pisos": [
@@ -34,7 +34,7 @@
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E800",
+    "ident": "Edificio 800",
     "nombre": "Taller",
     "marcador": { "lat": -39.83184, "lng": -73.250579 },
     "pisos": [
@@ -51,7 +51,7 @@
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E1000",
+    "ident": "Edificio 1000",
     "nombre": "Decanato",
     "marcador": { "lat": -39.832894, "lng": -73.250856 },
     "pisos": [
@@ -62,13 +62,13 @@
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
+      "texto": "El decanato es donde se hacen las tesis y se titulan los ingenieros. ",
       "foto": "FotoSinImagen"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E2000",
+    "ident": "Edificio 2000",
     "nombre": "Inés Bischoff Von Stillfried",
     "marcador": { "lat": -39.833598, "lng": -73.251061 },
     "pisos": [
@@ -79,13 +79,13 @@
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
+      "texto": "Se encuentra el CAF (centro de estudiantes de la facultad) en el piso del subterráneo tiene dos salas audiovisuales en el primer y segundo piso y las demás salas están en el segundo, en este edificio están los profesores de diseño y métodos industriales.",
       "foto": "E2000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E3000",
+    "ident": "Edificio 3000",
     "nombre": "Luis Christen Adams",
     "marcador": { "lat": -39.832783, "lng": -73.250204 },
     "pisos": [
@@ -102,7 +102,7 @@
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E4000",
+    "ident": "Edificio 4000",
     "nombre": "Astillero",
     "marcador": { "lat": -39.832521, "lng": -73.253114 },
     "pisos": [
@@ -119,7 +119,7 @@
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E5000",
+    "ident": "Edificio 5000",
     "nombre": "Casa Haverbeck",
     "marcador": { "lat": -39.831856, "lng": -73.250807 },
     "pisos": [
@@ -136,7 +136,7 @@
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E6000",
+    "ident": "Edificio 6000",
     "nombre": "Joaquín Castellano de Latorre",
     "marcador": { "lat": -39.832381, "lng": -73.243886 },
     "pisos": [
@@ -213,7 +213,7 @@
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E7000",
+    "ident": "Edificio 7000",
     "nombre": "Multimedial",
     "marcador": { "lat": -39.833305, "lng": -73.25208 },
     "pisos": [
@@ -250,7 +250,7 @@
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E8000",
+    "ident": "Edificio 8000",
     "nombre": "Eduardo González Villa",
     "marcador": { "lat": -39.834033, "lng": -73.245151 },
     "pisos": [
@@ -261,13 +261,13 @@
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
+      "texto": "Este edificio tiene cuatro salas en el primer piso que tienen enchufes y cuenta con laboratorios con maquinarias y en el segundo piso hay una cafetería, las oficinas de los profesores de ingeniería mecánica y también cuenta con cubículos para que los estudiantes hagan trabajos (tienen que ser pedidas)",
       "foto": "E8000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E9000",
+    "ident": "Edificio 9000",
     "nombre": "Carlos Hunt Sharpe - Pabellón docente",
     "marcador": { "lat": -39.833868, "lng": -73.246055 },
     "pisos": [
@@ -278,13 +278,13 @@
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
+      "texto": "Tiene dos salas en el primer piso un auditorio y una sala de computación, en el segundo piso hay dos salas más  con enchufes y cubículos para que los estudiantes trabajen que funcionan de 9 -12:30 y de 14:30 -18:30",
       "foto": "E9000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E10000",
+    "ident": "Edificio 10000",
     "nombre": "Instituto de Informática",
     "marcador": { "lat": -39.833399, "lng": -73.245197 },
     "pisos": [
@@ -295,13 +295,13 @@
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
+      "texto": "El edificio de informática cuenta con dos salas con computadores en los dos primeros pisos y en el tercero tiene las oficinas de los profesores de informática. En el primer piso se encuentra la secretaría de la carrera.",
       "foto": "E10000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E11000",
+    "ident": "Edificio 11000",
     "nombre": "Instituto de Obras Civiles",
     "marcador": { "lat": -39.832138, "lng": -73.250461 },
     "pisos": [
@@ -318,7 +318,7 @@
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E12000",
+    "ident": "Edificio 12000",
     "nombre": "Biblioteca",
     "marcador": { "lat": -39.831883, "lng": -73.244685 },
     "pisos": [
@@ -329,13 +329,13 @@
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
-      "foto": "FotoSinImagen"
+      "texto": "Para entrar se debe entregar el carnet o la tui y guardar las pertenencias en uno de los casilleros, se puede estudiar adentro y pedir libros, también se pueden pedir calculadoras científicas.",
+      "foto": "E120000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E13000",
+    "ident": "Edificio 13000",
     "nombre": "Edificio Civil Industrial",
     "marcador": { "lat": -39.831539, "lng": -73.2442 },
     "pisos": [
@@ -347,12 +347,12 @@
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoSinImagen"
+      "foto": "E13000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
   {
-    "ident": "E14000",
+    "ident": "Edificio 14000",
     "nombre": "INNOVING 14K",
     "marcador": { "lat": -39.832356, "lng": -73.245375 },
     "pisos": [
@@ -363,8 +363,8 @@
       }
     ],
     "informacion": {
-      "texto": "Esto es texto de prueba",
-      "foto": "FotoSinImagen"
+      "texto": "En el edificio INNOVING o 14K contiene máquinas y aquí se pueden hacer proyectos de postgrado.",
+      "foto": "E14000"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
@@ -415,7 +415,7 @@
     ],
     "informacion": {
       "texto": "Esto es texto de prueba",
-      "foto": "FotoSinImagen"
+      "foto": "Estadio"
     },
     "servicio": { "tipo": "est", "horario": ["8am", "8pm"] }
   },
